@@ -1,0 +1,40 @@
+.main{
+margin-right: auto;
+margin-left: auto;
+display: flex;
+background-color: black;
+width: 1344px;
+height: 2500px;
+flex-direction: column;
+}
+
+.main2{
+margin-right: auto;
+margin-left: auto;
+display: flex;
+background-color: white;
+width: 1344px;
+height: 1000px;
+flex-direction: row; 
+}
+
+
+.head1 {
+background-color: blue;
+flex-grow: 0.2;
+}
+
+.articles{
+    background-color: purple;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: green;
+    flex-grow: 2;
+}
+
+.articles2 {
+    background-color: red;
+    flex-grow: 6;
+}
