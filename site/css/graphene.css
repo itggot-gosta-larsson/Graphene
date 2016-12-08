@@ -1,0 +1,94 @@
+.main{
+margin-right: auto;
+margin-left: auto;
+display: flex;
+background-color: goldenrod;
+width: 1344px;
+height: 1200px;
+flex-direction: column;
+}
+
+.main2{
+margin-right: auto;
+margin-left: auto;
+background-color: goldenrod;
+display: flex;
+width: 1344px;
+height: 1000px;
+flex-direction: row; 
+}
+
+
+.head1 {
+background-image: url("../img/graphene_title.jpg");
+flex-grow: 0.2;
+margin-bottom: 3px;
+height: 260px;
+}
+
+.articles{
+    background-color: grey;
+    flex-grow: 1;
+    margin-right: 3px;
+}
+
+footer {
+    background-color: rgb(84, 84, 84);
+    flex-grow: 2;
+}
+
+.articles2 {
+    background-color: white;
+    flex-grow: 8;
+    max-width: 1000px;
+}
+
+li {
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.bild img {
+    height: 99.5vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background_graphene.jpg")
+}
+
+.textclass{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.textclass2{
+    text-align: center;
+    margin-top: 100px;
+    padding: 100px;
+    padding-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nybild{
+    height: 30vh;
+    width: 30vh;
+    margin-left: 380px;
+    margin-bottom: -100px;
+    margin-top: -100px;
+}
+
+.textclass3{
+    text-align: center;
+    margin-top: -80px;
+    padding: 0px;
+    padding-top: 0px;
+}
